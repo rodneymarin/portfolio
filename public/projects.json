@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Task Manager",
+    "desc": "Web App to manage tasks with columns and tasks like Trello.",
+    "file": "project-taskmanager.jpg",
+    "url": "https://dev.rodneymarin.com/task-manager/",
+    "stack": [
+      "React.JS",
+      "Typescript",
+      "Tailwind"
+    ]
+  },
+  {
+    "title": "My Movie Database",
+    "desc": "Web App to discover movies & series. Made in React, with all custom components and APIRest call to TMDB public API.",
+    "file": "project-mymoviedb.jpg",
+    "url": "https://dev.rodneymarin.com/mymoviedb/",
+    "stack": [
+      "React.JS",
+      "Typescript",
+      "Tailwind",
+      "RESTful.Api"
+    ]
+  },
+  {
+    "title": "Muertos & Heridos",
+    "desc": "Game about guessing a number following some clues. Using React and building custon components.",
+    "file": "project-myh.jpg",
+    "url": "https://dev.rodneymarin.com/myh/",
+    "stack": [
+      "React.JS",
+      "Javascript"
+    ]
+  },
+  {
+    "title": "Kiana",
+    "desc": "A customer's Business Landing Page",
+    "file": "project-kiana.jpg",
+    "url": "https://www.alimentoskiana.com",
+    "stack": [
+      "React.JS",
+      "Javascript"
+    ]
+  }
+]

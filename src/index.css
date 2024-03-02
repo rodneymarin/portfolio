@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+  html{
+    @apply bg-dark text-regular-text font-Outfit xl:text-3xl md:text-lg px-8 sm:px-0;
+  }
+  section,footer {
+    @apply container text-center mx-auto py-10 flex flex-col gap-3 items-center;
+  }
+  mark{
+    @apply bg-transparent text-accent-light;
+  }
+}
+
+@layer components{
+  .section-title{
+    @apply text-5xl/normal font-semibold text-accent-light;
+  }
+
+  .capsule{
+    @apply rounded-full py-1.5 px-3 w-fit border flex items-center gap-1 leading-none;
+  }
+
+  .button{
+    @apply hover:bg-button-hover cursor-pointer;
+  }
+}
