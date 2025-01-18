@@ -37,7 +37,7 @@ function App() {
             Frontend Developer
           </h1>
           <h5 className="text-[0.6rem] leading-[0.8rem] text-accent-light text-opacity-50">From Maracaibo, Venezuela</h5>
-          <h3 className="text-md">Focused in building Web interfaces in React.JS / Next.JS</h3>
+          <h3 className="text-md">Focused in building Web interfaces in React.JS</h3>
           <div className="flex gap-4 mt-4">
             <a className="capsule button" href="https://www.linkedin.com/in/rodneymarin/" target="_blank"><FaLinkedin />Linkedin</a>
             <a className="capsule button" href="https://www.github.com/rodneymarin/" target="_blank"><FaSquareGithub />GitHub</a>

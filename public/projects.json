@@ -1,5 +1,16 @@
 [
   {
+    "title": "Cautivarte Online Store",
+    "desc": "Online Store for a customer.",
+    "file": "project-cautivarte.jpg",
+    "url": "https://cautivarte.rodneymarin.com/",
+    "stack": [
+      "React.JS",
+      "Typescript",
+      "Tailwind"
+    ]
+  },
+  {
     "title": "Task Manager",
     "desc": "Web App to manage tasks with columns and tasks like Trello.",
     "file": "project-taskmanager.jpg",
