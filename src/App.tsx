@@ -1,14 +1,15 @@
 import { BiLogoTypescript } from "react-icons/bi";
-import { FaCss3Alt, FaHtml5, FaLinkedin, FaReact, FaSquareGithub } from "react-icons/fa6";
+import { FaAtlassian, FaGitSquare } from "react-icons/fa";
+import { FaLinkedin, FaReact, FaSquareGithub } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { RiJavascriptFill } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
-import { useProjects } from "./hooks/useProjects";
 import ProjectCard from "./components/ProjectCard";
+import { useProjects } from "./hooks/useProjects";
 
 interface StackItem {
   name: string,
-  icon: JSX.Element
+  icon: JSX.Element;
 }
 
 function App() {
@@ -18,9 +19,9 @@ function App() {
     { name: "Next.JS", icon: <FaReact /> },
     { name: "Typescript", icon: <BiLogoTypescript /> },
     { name: "Javascript", icon: <RiJavascriptFill /> },
-    { name: "HTML5", icon: <FaHtml5 /> },
-    { name: "CSS3", icon: <FaCss3Alt /> },
     { name: "Tailwind", icon: <SiTailwindcss /> },
+    { name: "Git", icon: <FaGitSquare /> },
+    { name: "Jira", icon: <FaAtlassian /> },
   ];
 
   return (
@@ -50,7 +51,7 @@ function App() {
         <div className="flex flex-col gap-4 w-full">
           {
             projects?.map(proj => {
-              return (<ProjectCard data={proj} />)
+              return (<ProjectCard data={proj} />);
             })
           }
         </div>
@@ -60,7 +61,7 @@ function App() {
         <div className="flex gap-3 justify-center flex-wrap">
           {
             myStack.map(stack => {
-              return (<div key={stack.name} className="capsule border-faded-text border-dashed">{stack.icon}{stack.name}</div>)
+              return (<div key={stack.name} className="capsule border-faded-text border-dashed">{stack.icon}{stack.name}</div>);
             })
           }
         </div>
@@ -69,7 +70,7 @@ function App() {
         &copy;2050 Rodney Marin
       </footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
