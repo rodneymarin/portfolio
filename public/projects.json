@@ -1,5 +1,27 @@
 [
   {
+    "title": "Dashboard",
+    "desc": "Demo store admin app with a dashboard and statistics components",
+    "file": "project-dashboard.jpg",
+    "url": "https://dev-dashboard.rodneymarin.com",
+    "stack": [
+      "React",
+      "Typescript",
+      "Tailwind"
+    ]
+  },
+  {
+    "title": "Custom Store Website",
+    "desc": "Online store website with cart and catalog",
+    "file": "project-cautivarte.jpg",
+    "url": "https://cautivarte.rodneymarin.com",
+    "stack": [
+      "React",
+      "Typescript",
+      "Tailwind"
+    ]
+  },
+  {
     "title": "Task Manager",
     "desc": "Web App to manage tasks with columns and tasks like Trello.",
     "file": "project-taskmanager.jpg",
