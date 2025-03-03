@@ -25,7 +25,7 @@
     "title": "Task Manager",
     "desc": "Web App to manage tasks with columns and tasks like Trello.",
     "file": "project-taskmanager.jpg",
-    "url": "https://rodneymarin.github.io/taskmanager-build",
+    "url": "https://dev.rodneymarin.com/task-manager",
     "stack": [
       "React",
       "Typescript",
@@ -36,7 +36,7 @@
     "title": "My Movie Database",
     "desc": "Web App to discover movies & series. Made in React, with all custom components and APIRest call to TMDB public API.",
     "file": "project-mymoviedb.jpg",
-    "url": "https://rodneymarin.github.io/mymoviedb-build",
+    "url": "https://dev.rodneymarin.com/mymoviedb",
     "stack": [
       "React",
       "Typescript",
@@ -48,7 +48,7 @@
     "title": "Muertos & Heridos",
     "desc": "Game about guessing a number following some clues. Using React and building custon components.",
     "file": "project-myh.jpg",
-    "url": "https://rodneymarin.github.io/myhreact-build",
+    "url": "https://dev.rodneymarin.com/myh",
     "stack": [
       "React",
       "Javascript"

@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://rodneymarin.github.io/portfolio-build/",
+  "homepage": "https://rodneymarin.com",
   "type": "module",
   "scripts": {
     "dev": "vite",
